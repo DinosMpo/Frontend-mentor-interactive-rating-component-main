@@ -1,0 +1,113 @@
+body { 
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	font-family: 'Overpass', sans-serif;
+}
+
+.rating-state {
+	width: 412px;
+	height: 417px;
+	color: white;
+	/*background: linear-gradient(180deg, hsl(213, 19%, 18%) 10%, hsl(216, 12%, 8%) 83%);*/
+	background: hsl(216, 12%, 8%);
+	border-radius: 30px;
+}
+
+.rating-state h1 {
+	color: hsl(0, 0%, 100%);
+	margin-top: 27px;
+	margin-bottom: 0px;
+}
+
+.rating-state p {
+	color: hsl(217, 12%, 63%);
+	margin-top: 15px;
+	margin-bottom: 25px;
+	line-height: 25px;
+}
+
+.container {
+	padding: 31px;
+	padding-top: 35px;
+	margin: 0px auto;
+}
+
+.star-shape {
+	background-color: hsl(213, 19%, 18%);
+	display: inline-block;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.star-shape svg {
+	margin: 0px auto;
+	display: block;
+}
+
+.ratings {
+	display: block;
+	list-style: none;
+	margin: 0px auto;
+	height: 60px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
+.rate {
+	display: inline-block;
+	/*float: left;*/
+	width: 21px;
+	/*height: 30px;*/
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(217, 12%, 63%);
+	padding: 12px;
+	border-radius: 60px;
+	margin: 0px 10px 0px 10px;
+	/*margin-right: 20px;*/
+}
+
+.rate:hover {
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+	cursor: pointer;
+}
+
+.submit-rating {
+	background-color: hsl(25, 97%, 53%);
+	text-align: center;	
+	padding: 12px;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.submit-rating:hover {
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+	cursor: pointer;
+}
+
+.active {
+	background-color: hsl(217, 12%, 63%);
+	color: hsl(0, 0%, 100%);
+}
+
+.thank-you-state {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+		width: 300px;
+		margin: 0px auto;
+  }
+
+  .ratings li {
+		margin: 0px 5px 0px 5px;
+  }
+}
