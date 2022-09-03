@@ -6,13 +6,14 @@ body {
 	align-items: center;
 	font-size: 15px;
 	font-family: 'Overpass', sans-serif;
+	background-color: hsl(216, 12%, 8%);
 }
 
 .rating-state {
 	width: 412px;
 	height: 417px;
 	color: white;
-	background: hsl(216, 12%, 8%);
+	background: hsl(213, 19%, 18%);
 	border-radius: 30px;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 .star-shape {
-	background-color: hsl(213, 19%, 18%);
+	background-color: hsl(213, 19%, 23%);
 	display: inline-block;
 	border-radius: 30px;
 	padding: 10px;
@@ -60,7 +61,7 @@ body {
 .rate {
 	display: inline-block;
 	width: 21px;
-	background-color: hsl(213, 19%, 18%);
+	background-color: hsl(213, 19%, 23%);
 	color: hsl(217, 12%, 63%);
 	padding: 12px;
 	border-radius: 60px;
